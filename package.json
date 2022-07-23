@@ -1,0 +1,27 @@
+{
+  "name": "reactapp",
+  "version": "1.0.0",
+  "description": "App to demonstrate ability with React Hooks and GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MCTWalker/ReactApp.git"
+  },
+  "keywords": [
+    "React",
+    "App",
+    "GraphQL"
+  ],
+  "author": "Maura Walker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MCTWalker/ReactApp/issues"
+  },
+  "homepage": "https://github.com/MCTWalker/ReactApp#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
