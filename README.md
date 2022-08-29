@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# Careerible Front End
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This code is the beginning of what will be the front end for careerible.com
 
-## Available Scripts
+## Running this app locally
 
 In the project directory, you can run:
 
