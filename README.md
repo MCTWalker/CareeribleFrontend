@@ -1,6 +1,6 @@
 # Careerible Front End
 
-This code is the beginning of what will be the front end for careerible.com
+This code is the beginning of what will be the front end for careerible.com, a start up that helps match software engineering job applicants to companies that are hiring based on skillset, personality, culture compatibility, and role fit.
 
 ## Running this app locally
 
