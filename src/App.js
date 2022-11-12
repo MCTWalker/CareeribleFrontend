@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
 import MarketingFade from './HomePageComponents/MarketingFade.js';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Careerible.com, making you more <br/> <MarketingFade currentWord="Careerible"></MarketingFade>
+          Careerible.com, making you more <br/> <MarketingFade></MarketingFade>
         </p>
         <a
           className="App-link"
