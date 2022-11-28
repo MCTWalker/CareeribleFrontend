@@ -5,16 +5,22 @@ import React, { useState, useEffect } from 'react';
 const MarketingFade = (props) => {
   const [wordIndex, setWordIndex] = useState(0);
   const wordsArr = ["Visible", "Available", "Careerible"];
+  const [marketingClass, setMarketingClass] = useState("marketing-heading");
 
   useEffect(() => {
 
-    const interval = setInterval(() => setWordIndex(((wordIndex + 1) % wordsArr.length)), 5000);
+    setMarketingClass(`marketing-heading marketing-fade0`);
+
+    setTimeout(() => {
+      setWordIndex(((wordIndex + 1) % wordsArr.length));
+    }, 5000);
+
+    setTimeout(() => {
+      setMarketingClass(`marketing-heading marketing-fade1`);
+    }, 2500)
     
-    return () => {
-      clearInterval(interval);
-    };
   }, [wordIndex]);
 
-  return <span id="marketingFade" className="marketing-fade">{parse(wordsArr[wordIndex])}</span>
+  return <span id="marketingFade" className={parse(marketingClass)}>{parse(wordsArr[wordIndex])}</span>
 }
 export default MarketingFade;

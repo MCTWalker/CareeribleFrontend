@@ -1,4 +1,6 @@
-.marketing-fade {
+
+
+.marketing-heading {
   display: block;
   font-size: 2em;
   margin-block-start: 0.67em;
@@ -9,7 +11,20 @@
   animation: fadeIn 5s;
 }
 
+.marketing-fade0 {
+  animation: fadeIn 2.5s;
+}
+
+.marketing-fade1 {
+  animation: fadeOut 2.5s;
+}
+
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  100% { opacity: 0; }
+  0% { opacity: 1; }
 }
