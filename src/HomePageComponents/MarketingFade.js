@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 
 const MarketingFade = (props) => {
   const [wordIndex, setWordIndex] = useState(0);
-  const wordsArr = ["Visible", "Available", "Careerible"];
+  const wordsArr = ["Available", "Visible", "Careerible"];
   const [marketingClass, setMarketingClass] = useState("marketing-heading");
 
   useEffect(() => {
